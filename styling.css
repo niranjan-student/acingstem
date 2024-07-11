@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+body{
+    background-color: lightgrey;
+}
+
 h1{
     font-family:"Montserrat";
     font-size: 72px;
