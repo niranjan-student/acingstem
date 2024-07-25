@@ -24,6 +24,7 @@ p{
 div.row {
     clear: both;
     text-align: center;
+    justify-items: center;
 }
 
 div.row::after {
@@ -44,7 +45,7 @@ div.white{
     background-color: white;
     color: black;
 }
-h2.pad{padding: 1.5%;}
+.pad{padding: 1.5%;}
 p.pad{padding:10%}
 br{
     height:2%;
@@ -137,23 +138,20 @@ img{
 
 
 div.card{
-    float:left;
-    width:20%;
-    margin:2.5%;
-    height: 400px;
-    box-sizing: border-box;
-    justify-items: center;
+    width: 75%;
+    margin: 3%;
 
 }
-div.card > img{
+
+/* div.card > img{
     width: 95%;
     display: block;
     max-height: 70%;
-    object-fit:contain;
+    object-fit:contain; */
 
 
-}
-div.card > p{
+/* } */
+/* div.card > p{
     bottom:0%;
     width:95%;
     align-self:center;
@@ -161,6 +159,24 @@ div.card > p{
 
 div.card:hover{
     border: crimson solid 1.5px;
+} */
+
+div.accordion{
+    width: 50%;
+    float:none;
+    justify-self: center;
+    margin-left: 25%;
 }
 
+div.center{
+    justify-items: center;
+}
 
+div.center::after{
+    float:none
+}
+
+footer{
+    font-size: 16px;
+    padding:2%;
+}
